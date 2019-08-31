@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+		<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
@@ -28,6 +28,18 @@
 			<link rel="stylesheet" href="css/animate.min.css">
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/lightbox.css">
+        
+            <script>
+            function writeLightbox(dirName,total){
+                var i;
+                for (i = 2; i< total+1; i++){
+                    var ws = "<a href=\"\\img\\sets\\"+dirName + "\\" + i +".jpg\" data-lightbox=\""+dirName+"\"></a>";
+                    document.write(ws);
+                }
+            }
+            </script>
 		</head>
 		<body>	
 			  <header id="header" id="home">
@@ -52,17 +64,17 @@
 			    <div class="container main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index-ch.html"><img src="img/logo3.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="img/logo3.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="index-ch.html">主页</a></li>
-				          
-                            <li><a href="about-ch.html">关于</a></li>
-                          <li><a href="products-ch.html">产品</a></li>  
-                          <li><a href="process-ch.html">工艺流程</a></li>				          					          		          
-				          <li><a href="contact-ch.html">联系方式</a></li>
-                          <li><a href="index.html">English</a></li>
+				          <li class="menu-active"><a href="index.html">Home</a></li>
+                            
+                          <li><a href="about.html">About</a></li>   
+				          <li><a href="products.html">Products</a></li>
+                          <li><a href="process.html">Process</a></li>				          					          		          
+				          <li><a href="contact.html">Contact</a></li>
+                          <li><a href="index-ch.html">中文</a></li>
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -76,36 +88,185 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								我们的产品				
+								Products				
 							</h1>	
-							<p class="text-white link-nav"><a href="index-ch.html">主页 </a>  <span class="lnr lnr-arrow-right"></span>  <a href="products-ch.html"> 产品</a></p>
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="products.html"> Products</a></p>
 						</div>	
 					</div>
 				</div>
 			</section>
 			<!-- End banner Area -->	
 
-			<!-- Start project-details Area -->
-			<section class="project-details-area section-gap">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6 project-details-left">
-							<img class="img-fluid" src="img/set-details.jpg" alt="">
-						</div>
-						<div class="col-lg-6 project-details-right">
-							<h3 class="pb-20">组合套装</h3>
-							<p>
-								美格贝斯为搭配您的浴室提供多种多样的选择。套装可包括挂钩，厕纸架，毛巾环/毛巾架，马桶刷以，肥皂架/网篮以及皂液器。套装统一的设计理念让您的浴室焕然一新。 美格贝斯保证产品的耐用持久，长久如新。
-
-							</p>
-							<div class="details-info d-flex flex-row">
-								<p> 如果您想更详细了解我们这项产品，请打开我们的小册子： <a href="Bathroom%20Accessories%20brochure.pdf">链接 </a></p>						
-							</div>												
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End project-details Area -->						
+            <!-- Start project-details Area -->                
+            <div id="page-content">
+                <section class="project-details-area box-content box-1 section-gap" id="about">
+                    <div class="container">
+                        <div class="row align-items-center">
+                      <h3 class="pb-20">Set</h3>
+                                <p>
+                                    Megabath provides various choices of accessories to make the best fit to your bathroom. Our set includes hook, paper holder, towel ring/bar, toilet brush, and soap dish holder/basket/dispenser. The uniformed design of the whole set makes you a stunning bathroom. Megabath ensures most durability with least care for the product.
+                                </p>
+                                <div class="details-info d-flex flex-row">
+                                    <p> For more products, please download our latest brochure: <a href="Bathroom%20Accessories%20brochure.pdf">link </a></p>						
+                                </div>												
+                        </div>
+                     </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>51D series</h3>
+                                    </div>
+                                    <a href="\img\sets\51D\1.jpg" data-lightbox="51D"><img src="img/sets/51D.jpg" title="51D series"></a>
+                                    <script>
+                                         writeLightbox("51D", 17);
+                                    </script>
+                                    <div class="box-item-content">
+                                        <a href="#">The 51D series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>61 series</h3>
+                                    </div>
+                                    <a href="\img\sets\61series\1.jpg" data-lightbox="61series"><img src="img/sets/61%20series.jpg" title="61 series"></a>
+                                    <script>
+                                         writeLightbox("61series", 16);
+                                    </script>
+                                    <div class="box-item-content">
+                                        <a href="#">The 61 series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>62 series</h3>
+                                    </div>
+                                    <a href="\img\sets\62series\1.jpg" data-lightbox="62series"><img src="img/sets/62%20series.jpg" title="62 series"></a>
+                                    <script>
+                                         writeLightbox("62series", 16);
+                                    </script>
+                                    <div class="box-item-content">
+                                        <a href="#">The 62 series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>63 series</h3>
+                                    </div>
+                                    <a href="\img\sets\63series\1.jpg" data-lightbox="63series"><img src="img/sets/63%20series.jpg" title="63 series"></a>
+                                    <script>
+                                         writeLightbox("63series", 16);
+                                    </script>    
+                                    <div class="box-item-content">
+                                        <a href="#">The 63 series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="row">
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>65 series</h3>
+                                    </div>
+                                    <a href="\img\sets\65series\1.jpg" data-lightbox="65series"><img src="img/sets/65%20series.jpg" title="65 series"></a>
+                                    <script>
+                                         writeLightbox("65series", 18);
+                                    </script> 
+                                    <div class="box-item-content">
+                                        <a href="#">The 65 series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>65D series</h3>
+                                    </div>
+                                    <a href="\img\sets\65D\1.jpg" data-lightbox="65D"><img src="img/sets/65D.jpg" title="65D series"></a>
+                                    <script>
+                                         writeLightbox("65D", 17);
+                                    </script>   
+                                    <div class="box-item-content">
+                                        <a href="#">The 65D series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="row">
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>66 series</h3>
+                                    </div>
+                                    <a href="\img\sets\66series\1.jpg" data-lightbox="66series"><img src="img/sets/66%20series.jpg" title="66 series"></a>
+                                    <script>
+                                         writeLightbox("66series", 16);
+                                    </script> 
+                                    <div class="box-item-content">
+                                        <a href="#">The 66 series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>81 series</h3>
+                                    </div>
+                                    <a href="\img\sets\81series\1.jpg" data-lightbox="81series"><img src="img/sets/81%20series.jpg" title="81 series"></a>
+                                    <script>
+                                         writeLightbox("81series", 15);                                        
+                                    </script>     
+                                    <div class="box-item-content">
+                                        <a href="#">The 81 series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>82 series</h3>
+                                    </div>
+                                    <a href="\img\sets\82series\1.jpg" data-lightbox="82series"><img src="img/sets/82%20series.jpg" title="82 series"></a>
+                                    <script>
+                                         writeLightbox("82series", 17);                                        
+                                    </script> 
+                                    <div class="box-item-content">
+                                        <a href="#">The 82 series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="box-item">
+                                    <div class="box-item-header">
+                                        <h3>85D series</h3>
+                                    </div>
+                                   <a href="\img\sets\85D\1.jpg" data-lightbox="85D"><img src="img/sets/85D.jpg" title="85D series"></a>
+                                    <script>
+                                         writeLightbox("85D", 16);                                        
+                                    </script> 
+                                    <div class="box-item-content">
+                                        <a href="#">The 85D series offers premium design and best quality. </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End project-details Area -->						
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/popper.min.js"></script>
@@ -119,5 +280,7 @@
 			<script src="js/jquery.nice-select.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+            <script src="js/lightbox.js"></script>
+            
 		</body>
 	</html>
